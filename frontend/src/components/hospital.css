@@ -1,0 +1,90 @@
+.hospital-admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .hospital-admin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .dropdown-container {
+    margin-right: 10px;
+  }
+  
+  .hospital-admin-card {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .table-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .table-header {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .table-row:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .table-row td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+  }
+  
+  .quantity-edit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

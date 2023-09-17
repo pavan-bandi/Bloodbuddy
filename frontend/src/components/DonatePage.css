@@ -1,0 +1,6 @@
+.custom-card {
+    background: linear-gradient(to right, #ffffff, #ff7f7f);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

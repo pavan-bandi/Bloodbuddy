@@ -1,0 +1,182 @@
+.availability-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.availability-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  margin-right: 10px;
+}
+
+.search-button {
+  margin-left: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-container {
+  margin-right: 10px;
+}
+
+.availability-card {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.table-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.table-header {
+  font-size: 20px;
+  margin: 0;
+}
+
+.table-buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.table-button {
+  text-transform: uppercase;
+}
+
+.availability-table {
+  margin-bottom: 0;
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table-row td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+}
+
+.dropdown-toggle {
+  background-color: #6c757d;
+  color: #ffffff;
+  border-color: #6c757d;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+.dropdown-item:focus {
+  background-color: #f8f9fa;
+  color: #000000;
+  outline: none;
+}
+
+.dropdown-item.active {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.dropdown-menu {
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+/* Add space between dropdown and buttons */
+/* Add this CSS to your existing stylesheet */
+/* Add this CSS to your existing stylesheet */
+
+/* Add space between dropdown and buttons */
+.search-shift-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add margin at the bottom for separation */
+}
+
+/* Style for search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+/* Style for shift toggle buttons */
+.shift-toggle-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  color: #ff0000; /* Change button text color */
+}
+
+.shift-toggle-button.active {
+  opacity: 1;
+}
+
+.shift-toggle-button:not(.active) {
+  opacity: 0.6;
+}
+
+.hospital-button {
+  background-color: #ff0000;
+}
+
+.donor-button {
+  background-color: #ffffff;
+}
+
+/* Rest of your existing styles */
