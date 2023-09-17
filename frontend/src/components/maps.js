@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-
+require('dotenv').config();
 import {
   Button,
   Container,
@@ -24,7 +24,7 @@ import {
 
 function App({ hospitalAddresses }) {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyDfHkD-Q_siWPu_D27NpCy5Oharupfoqps",
+    googleMapsApiKey: process.env.API_KEY,
     libraries: ['places'],
   });
 
